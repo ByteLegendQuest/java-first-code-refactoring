@@ -6,9 +6,9 @@ public class Challenge {
     public static int c = 3;
 
     public static void main(String[] args) {
-        print(1);
-        print(2);
-        print(3);
+        print(a);
+        print(b);
+        print(c);
     }
 
     // Complete this method
