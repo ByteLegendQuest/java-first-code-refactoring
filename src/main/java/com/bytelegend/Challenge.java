@@ -6,13 +6,13 @@ public class Challenge {
     public static int c = 3;
 
     public static void main(String[] args) {
-        print;
-        print;
-        print;
+        print();
+        print();
+        print();
     }
 
     // Complete this method
-    public static void print(int number) {
+    public static void print() {
         System.out.println("Start!");
         System.out.println("Number is: " + a);
         System.out.println("Number+1 is: " + (a + 1));
