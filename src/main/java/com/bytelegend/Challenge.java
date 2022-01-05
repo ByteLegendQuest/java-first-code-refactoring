@@ -1,8 +1,8 @@
 package com.bytelegend;
 
 public class Challenge {
-    public static int a = 1;
-    public static int b = 2;
+    public static int a=1;
+    public static int b=2;
     public static int c = 3;
 
     public static void main(String[] args) {
