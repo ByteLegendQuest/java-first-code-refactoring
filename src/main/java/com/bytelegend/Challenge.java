@@ -10,7 +10,7 @@ public class Challenge {
     }
 
     // Complete this method
-   private static void print() {
+   public static void print() {
         String valueString = a + String.valueOf(b) + c;
         int value = Integer.parseInt(valueString);
         System.out.println("Start!");
