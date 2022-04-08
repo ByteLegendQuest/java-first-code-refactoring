@@ -5,27 +5,19 @@ public class Challenge {
     public static int b = 2;
     public static int c = 3;
 
+    public static print(int num){
+        System.out.println("Start!");
+        System.out.println("Number is: " + num);
+        System.out.println("Number+1 is: " + (num + 1));
+        System.out.println("Number*10 is: " + (num * 10));
+        System.out.println("Number*100 is: " + (num * 100));
+        System.out.println("End!");
+    }
+
     public static void main(String[] args) {
-        System.out.println("Start!");
-        System.out.println("Number is: " + a);
-        System.out.println("Number+1 is: " + (a + 1));
-        System.out.println("Number*10 is: " + (a * 10));
-        System.out.println("Number*100 is: " + (a * 100));
-        System.out.println("End!");
-
-        System.out.println("Start!");
-        System.out.println("Number is: " + b);
-        System.out.println("Number+1 is: " + (b + 1));
-        System.out.println("Number*10 is: " + (b * 10));
-        System.out.println("Number*100 is: " + (b * 100));
-        System.out.println("End!");
-
-        System.out.println("Start!");
-        System.out.println("Number is: " + c);
-        System.out.println("Number+1 is: " + (c + 1));
-        System.out.println("Number*10 is: " + (c * 10));
-        System.out.println("Number*100 is: " + (c * 100));
-        System.out.println("End!");
+        print(a);
+        print(b);
+        print(c);
     }
 
     // Complete this method
