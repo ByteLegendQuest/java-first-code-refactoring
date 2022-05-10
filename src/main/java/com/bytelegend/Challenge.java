@@ -5,7 +5,6 @@ public class Challenge {
     public static int b = 2;
     public static int c = 3;
 
-
     public static void main(String[] args) {
         print(a);
         print(b);
@@ -21,6 +20,4 @@ public class Challenge {
         System.out.println("Number*100 is: " + (number * 100));
         System.out.println("End!");
     }
-}
-
 }
