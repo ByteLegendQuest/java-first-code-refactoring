@@ -20,4 +20,4 @@ public class Challenge {
         System.out.println("Number*100 is: " + (number * 100));
         System.out.println("End!");
 
-    }
+    }}
