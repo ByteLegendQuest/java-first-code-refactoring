@@ -33,5 +33,7 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void print(int number) {}
+    public static void print(int number) {
+        System.out.println(number);
+    }
 }
