@@ -5,7 +5,7 @@ public class Challenge {
     public static int b = 2;
     public static int c = 3;
 
-    private static void print(String message) {
+    public static void print(String message) {
         System.out.println(message);
     }
 
