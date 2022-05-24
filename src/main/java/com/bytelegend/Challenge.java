@@ -6,8 +6,6 @@ public class Challenge {
     public static int c = 3;
 
     public static void main(String[] args) {
-        
-        
         print(a);
         print(b);
         print(c);
@@ -15,7 +13,7 @@ public class Challenge {
 
     // Complete this method
     public static void print(int number) {
-        System.out.println("Start!")
+        System.out.println("Start!");
         System.out.println("Number is: " + number);
         System.out.println("Number+1 is: " + (number + 1));
         System.out.println("Number*10 is: " + (number * 10));
