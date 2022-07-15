@@ -29,5 +29,13 @@ public class Challenge {
     }
 
     // Complete this method
-    public static void print(int number) {}
+    public static void print(int number) {
+        int input = number;
+        System.out.println("Start!");
+        System.out.println("Number is: " + input);
+        System.out.println("Number+1 is: " + (input + 1));
+        System.out.println("Number*10 is: " + (input * 10));
+        System.out.println("Number*100 is: " + (input * 100));
+        System.out.println("End!");
+    }
 }
