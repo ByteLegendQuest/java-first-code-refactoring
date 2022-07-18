@@ -30,6 +30,8 @@ public class Challenge {
 
     // Complete this method
     public static void print(int number) {
-        System.out.print(number);
+        System.out.println("Start!");
+        System.out.println("Number is: " + number);
+        System.out.println("End!");
     }
 }
