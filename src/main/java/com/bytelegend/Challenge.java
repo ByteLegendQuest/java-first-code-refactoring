@@ -21,6 +21,6 @@ public class Challenge {
         print("End!");
     }
     public static void print(String s) {
-        System.put.println(s);
+        System.out.println(s);
     }
 }
